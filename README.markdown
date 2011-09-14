@@ -16,7 +16,8 @@ The doughduino circuit does not have an ICSP socket. You will need to either
 temporarily wire one in, or flash the ATmega8 chip in another circuit. For
 example; an Arduino Diecimila or NG (maybe UNO too). Just remove the Arduino
 AVR chip and replace with your ATmega8 in need of a bootloader. Then use an
-[AVR-ISP](http://www.ladyada.net/make/usbtinyisp/) programmer to burn.
+[AVR-ISP](http://www.ladyada.net/make/usbtinyisp/) programmer to burn firmware
+(ARDUINO_HOME/hardware/arduino/bootloaders/atmega8/ATmegaBOOT.hex).
 
 
 Uploading Doughduino Sketch
@@ -34,6 +35,6 @@ I use the [Sparkfun 3.3v FTDI Breakout](http://www.sparkfun.com/products/8772).
 
 Reference
 ---------
-[ATmega8 Arduino Pins](http://www.arduino.cc/en/Hacking/PinMapping)
-[Arduino Bootloader](http://www.arduino.cc/en/Hacking/Bootloader)
+- [ATmega8 Arduino Pins](http://www.arduino.cc/en/Hacking/PinMapping)
+- [Arduino Bootloader](http://www.arduino.cc/en/Hacking/Bootloader)
 
