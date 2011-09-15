@@ -1,6 +1,7 @@
 About
 -----
-An Arduino based temperature control device designed for proving bread dough.
+Arduino based temperature control device designed for proving bread dough.
+See my [blog post](http://www.slashdev.ca/2011/09/15/doughduino/) for details.
 
 
 Required Libraries
@@ -37,4 +38,6 @@ Reference
 ---------
 - [ATmega8 Arduino Pins](http://www.arduino.cc/en/Hacking/PinMapping)
 - [Arduino Bootloader](http://www.arduino.cc/en/Hacking/Bootloader)
+- [Standalone Arduino](http://www.arduino.cc/playground/Learning/AtmegaStandalone)
+- [Arduino on a Breadboard](http://itp.nyu.edu/physcomp/Tutorials/ArduinoBreadboard)
 
